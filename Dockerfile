@@ -1,7 +1,3 @@
-FROM hshar/webapp
-ADD . /var/www/html
-
-
 
 
 # Use a base image
