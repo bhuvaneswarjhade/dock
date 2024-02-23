@@ -1,0 +1,10 @@
+version : "3.3"
+services :
+  web :
+     image : bhuvaneswar2002/tic-tac-toe:latest
+     ports :
+         - "82:80"
+
+
+
+         
