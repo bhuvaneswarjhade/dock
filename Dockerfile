@@ -7,7 +7,7 @@ FROM nginx:latest
 COPY tic-tac-toe /usr/share/nginx/html
 
 # Expose port for web traffic
-EXPOSE 80
+EXPOSE 8000
 
 # Start nginx server
 CMD ["nginx", "-g", "daemon off;"]
